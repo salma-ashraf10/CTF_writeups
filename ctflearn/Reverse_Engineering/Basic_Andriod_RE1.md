@@ -10,8 +10,8 @@
     
 ----
 ## Tools Used
-- [Decompiler.com](https://www.decompiler.com) – for APK decompilation  
-- [Hashes.com](https://hashes.com/) – for MD5 hash cracking
+   [Decompiler.com](https://www.decompiler.com) – for APK decompilation  
+   [Hashes.com](https://hashes.com/) – for MD5 hash cracking
 
 ----
 
@@ -40,8 +40,8 @@
 
 ---
 ## Impact summary:
-    This challenge demonstrates the risk of storing sensitive information (like passwords or keys) directly in client-side code.  
-    Since the app contains a hardcoded MD5 hash, anyone can decompile the APK, extract the hash, and crack it to reveal the secret.  
+    This challenge demonstrates the risk of storing sensitive information (like passwords or keys) directly in client-side code.
+    Since the app contains a hardcoded MD5 hash, anyone can decompile the APK, extract the hash, and crack it to reveal the secret.
 ---
 ## Mitigations:
     - Do not store secrets or perform authentication checks on the client side. move all sensitive validation to a secure server.
