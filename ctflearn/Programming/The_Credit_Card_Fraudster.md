@@ -31,11 +31,19 @@
  ```
 ---
 ## Analysis Steps:
+1- I generated all possible numbers in the format 543210{i:06}1234, where i ranges from 000000 to 999999.
 
+2- For each generated number, I checked if it was divisible by 123457
+
+3- I also applied the Luhn algorithm to verify if the card number passed the checksum validation.
+
+4- The first number that satisfied both conditions was:
+     5432103279251234
+   CTFlearn{card_number} --> CTFlearn{5432103279251234}
 
 ---
 ### The flag
- 
+    CTFlearn{5432103279251234}
       
 ---
 [The challenge link](https://ctflearn.com/challenge/970)
