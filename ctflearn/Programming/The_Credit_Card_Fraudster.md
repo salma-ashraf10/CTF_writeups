@@ -38,8 +38,7 @@
 3- I also applied the Luhn algorithm to verify if the card number passed the checksum validation.
 
 4- The first number that satisfied both conditions was:
-     5432103279251234
-   CTFlearn{card_number} --> CTFlearn{5432103279251234}
+     5432103279251234 --> CTFlearn{5432103279251234}
 
 ---
 ### The flag
