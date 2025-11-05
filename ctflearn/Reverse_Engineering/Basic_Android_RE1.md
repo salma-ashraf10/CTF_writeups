@@ -1,4 +1,4 @@
-# Basic Andriod RE1 - RE challenge
+# Basic Android RE1 - RE challenge
 
   platform: ctflearn
 
