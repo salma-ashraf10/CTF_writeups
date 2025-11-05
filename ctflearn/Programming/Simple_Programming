@@ -1,0 +1,42 @@
+# Simple Programming - Programming challenge
+
+  platform: ctflearn
+
+  category: Programming 30points
+
+## Challenge Description: 
+     We are given a file (`data.dat`) containing multiple lines of binary numbers (composed of 0's and 1's).  
+     Our task is to count how many lines satisfy at least one of the following conditions:
+       1- The number of `0`s in the line is a multiple of 3.
+       2- The number of `1`s in the line is a multiple of 2.
+----
+## Code snippet
+  ```python
+cnt = 0
+with open("data.dat") as f:
+    for l in f.readlines():
+        if l.count('0') % 3 == 0 or l.count('1') % 2 == 0:
+            cnt += 1
+print(cnt)
+---
+## Analysis Steps:
+  ### Open the given file data.dat 
+        For each line:
+           Count the number of 0s and check if it's divisible by 3.
+           Count the number of 1s and check if it's divisible by 2.
+        If either condition is true, increase the counter.
+        Print the total count — this number is the flag.
+  ### The result : 6662
+---
+### The flag: 6662
+      
+---
+[The challenge link](https://ctflearn.com/challenge/174)
+
+
+
+      
+
+
+
+ 
