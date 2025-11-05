@@ -18,6 +18,7 @@ with open("data.dat") as f:
         if l.count('0') % 3 == 0 or l.count('1') % 2 == 0:
             cnt += 1
 print(cnt)
+ ```
 ---
 ## Analysis Steps:
   ### Open the given file data.dat 
