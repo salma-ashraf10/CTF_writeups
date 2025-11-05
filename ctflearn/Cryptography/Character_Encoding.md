@@ -3,7 +3,7 @@
   platform: ctflearn
 
   category: Cryptography  20points
----
+----
 ## Challenge Description: 
    We are given a sequence of hexadecimal bytes that hides the flag. 
    Interpret the bytes correctly to reveal an ASCII message that follows the competition's flag format.
@@ -11,6 +11,7 @@
 ---
 ## Tool used:
    (cryptii.com)[https://cryptii.com/pipes/hex-decoder] --> decoding the hexa code
+   
 ---
 
 ## Analysis Steps:
