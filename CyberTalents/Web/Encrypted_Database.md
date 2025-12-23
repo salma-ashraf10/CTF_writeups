@@ -1,77 +1,70 @@
-# Encrypted_Database - Web Challenge
+# Encrypted_Database - Web challenge
 
-- **Platform:** Cyber Talents  
-- **Category:** Web — Easy (50 points)
+  platform: Cyber Talents
 
----
+  category: Web    easy(50points)
 
-## Challenge Description
+## Challenge Description: 
 
-The challenge provides a static website called **TopNewsJournal Website**.
-
-<img width="1765" height="883" alt="image" src="https://github.com/user-attachments/assets/de015e4e-ddba-414d-9e14-36bf351734a3" />
-
----
-
+     The challenge provides a static website called TopNewsJournal Website
+     
+   <img width="1765" height="883" alt="image" src="https://github.com/user-attachments/assets/de015e4e-ddba-414d-9e14-36bf351734a3" />
+  
+    
+----
 ## Tools Used
 
-- Browser Developer Tools (Inspect Element)
+  Browser Developer Tools (Inspect Element)
 
----
+----
 
-## Analysis Steps
+## Analysis Steps:
 
-### 1. Initial Recon
-When I opened the website, I found a page that contains multiple tabs such as **Home**, **About**, etc.
+### 1. when I open the website , I found a page that have many tabs like home , about,..etc.
 
-### 2. Inspecting the Source
-I opened the Developer Tools by pressing `Ctrl + Shift + I` and navigated to the **Elements** tab.
+### 2. I open Dev tool (inspect) by clicking ctrl + shift + I go to elements tab
 
-### 3. Discovering Admin Path
-At line 32, I discovered a `<script>` tag referencing the following path:
+### 3. At line 32, I discovered a script tag and found a path [admin/assests/app.js] in its src.
 
-`admin/assets/app.js`
+   <img width="636" height="74" alt="image" src="https://github.com/user-attachments/assets/b8057ff6-69ec-49fa-9b87-a019db390224" />
 
-<img width="636" height="74" alt="image" src="https://github.com/user-attachments/assets/b8057ff6-69ec-49fa-9b87-a019db390224" />
+### 4. so , we can understand that there is an endpoint called admin.
 
-### 4. Identifying the Admin Endpoint
-This indicated the existence of an **admin** endpoint.
+### 5. so, by trying enter in it by added it in the url , we got an admin login page. but, we didn't have any credentials
 
-### 5. Accessing Admin Panel
-By manually navigating to `/admin`, an admin login page appeared. However, no credentials were provided.
+  <img width="839" height="598" alt="image" src="https://github.com/user-attachments/assets/acbaf519-6bd9-4515-b5fb-c64a2eaa3edc" />
 
-<img width="839" height="598" alt="image" src="https://github.com/user-attachments/assets/acbaf519-6bd9-4515-b5fb-c64a2eaa3edc" />
 
-### 6. Finding Hidden Endpoint
-After inspecting the page again, I noticed suspicious code at line 39 containing a hidden input field with an endpoint value.
+### 6. opening inspect again . when I read , I observed a suspecious code at line 39 --> an hidden input and its value contains an endpoit
 
-<img width="842" height="74" alt="image" src="https://github.com/user-attachments/assets/fe00a6bd-f4d1-426d-94b1-5bde06943b57" />
+   <img width="842" height="74" alt="image" src="https://github.com/user-attachments/assets/fe00a6bd-f4d1-426d-94b1-5bde06943b57" />
 
-### 7. Accessing the Database File
-Appending the discovered path resulted in the following URL:
 
-`http://[your machine]/admin/secret-database/db.json`
+### 7. by trying add it . so, the full path becomes http://[your machine]/admin/secret-database/db.json
 
-### 8. Identifying the Hash
-Inside the file, a hashed flag was found. Using a hash identifier tool confirmed it was an **MD5** hash.
+### 8. we found a hash flag . By using hash identifier tool or it gui , the result is md5 hash.
 
-<img width="658" height="231" alt="image" src="https://github.com/user-attachments/assets/8462ea8c-49f6-41a9-a33f-f6296c68d21e" />
+  <img width="658" height="231" alt="image" src="https://github.com/user-attachments/assets/8462ea8c-49f6-41a9-a33f-f6296c68d21e" />
 
-### 9. Cracking the Hash
-The hash was successfully cracked using **CrackStation**.
+### 9. let's crack it by crackstation tool.
 
-<img width="1394" height="88" alt="image" src="https://github.com/user-attachments/assets/303018b7-364a-49b5-9157-384e7bad2a9a" />
+   <img width="1394" height="88" alt="image" src="https://github.com/user-attachments/assets/303018b7-364a-49b5-9157-384e7bad2a9a" />
 
-### 10. Flag Retrieved
-Finally, the flag was obtained.
 
----
+### 10. and finally, we've got the flag: badboy
 
-## Flag:
-badboy
+----
 
----
+### The flag: 
 
-**Challenge Link:**  
-https://cybertalents.com/challenges/web/encrypted-database
+     badboy
+     
+[The challenge link](https://cybertalents.com/challenges/web/encrypted-database)
 
+
+
+      
+
+
+
+ 
