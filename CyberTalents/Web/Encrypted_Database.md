@@ -28,19 +28,19 @@
 
    <img width="636" height="74" alt="image" src="https://github.com/user-attachments/assets/b8057ff6-69ec-49fa-9b87-a019db390224" />
 
-### 4. so , we can unnderstand that there is an endpoint called admin.
+### 4. so , we can understand that there is an endpoint called admin.
 
-### 5. so, by trying enter in it by added it in the url , we got an admin login page. but, we didn't have any creditionals
+### 5. so, by trying enter in it by added it in the url , we got an admin login page. but, we didn't have any credentials
 
   <img width="839" height="598" alt="image" src="https://github.com/user-attachments/assets/acbaf519-6bd9-4515-b5fb-c64a2eaa3edc" />
 
 
-### 6. openning inspect again . when I read , I observed a suspecious code at line 39 --> an hidden input and its value contain an endpoit
+### 6. opening inspect again . when I read , I observed a suspecious code at line 39 --> an hidden input and its value contains an endpoit
 
    <img width="842" height="74" alt="image" src="https://github.com/user-attachments/assets/fe00a6bd-f4d1-426d-94b1-5bde06943b57" />
 
 
-### 7. by trying add it . so, the full path become http://[your machine]/admin/secret-database/db.json
+### 7. by trying add it . so, the full path becomes http://[your machine]/admin/secret-database/db.json
 
 ### 8. we found a hash flag . By using hash identifier tool or it gui , the result is md5 hash.
 
@@ -56,6 +56,7 @@
 ----
 
 ### The flag: 
+
      badboy
      
 [The challenge link](https://cybertalents.com/challenges/web/encrypted-database)
