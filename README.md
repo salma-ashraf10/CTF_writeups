@@ -7,6 +7,7 @@ This repository contains write-ups and solutions for CTF challenges I've solved.
 
 ### 1. Web
 **1.1 This is Sparta**                         [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Web/This%20is%20Sparta.md)
+**1.2 Encrypted database**                     [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Web/Encrypted_Database.md)
 
 ---
 
