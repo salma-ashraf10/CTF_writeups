@@ -13,6 +13,12 @@ This repository contains write-ups and solutions for CTF challenges I've solved.
 | **1.1 This is Sparta** | [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Web/This%20is%20Sparta.md) |
 | **1.2 Encrypted Database** | [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Web/Encrypted_Database.md) |
 
+### 2. Forensics
+
+| Challenge | Write-up |
+|---------|----------|
+| **2.1 ADSL Modem ** | [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Forensics/ADSL_Modem.md) |
+
 ---
 
 ## CTFlearn
