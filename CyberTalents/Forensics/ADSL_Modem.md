@@ -42,8 +42,8 @@
           
           Extracting from TL-MR3220+V2+_FW.bin
 
-### 5. the result is the flag:
-          Flag{reversing_FW_is_interesting_but_this_is_for_fun}
+### 5. finally , we found the flag.
+         
 ---
 ### The flag: 
     Flag{reversing_FW_is_interesting_but_this_is_for_fun}
