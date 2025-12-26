@@ -22,7 +22,11 @@
 
 ### 2. use file command for knowing the type of this file
 
-     /home/kali/Pictures/Screenshot_2025-12-06_20_48_13.png
+    ```
+    root㉿kali)-[/home/kali/Downloads]
+    └─# file TL-MR3220+V2+_FW.bin
+    TL-MR3220+V2+_FW.bin: RAR archive data, v4, os: Win32
+    ```
 
   
 ### 3. the result is rar file , so let's uncompromise it.
