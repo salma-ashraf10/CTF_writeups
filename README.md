@@ -17,7 +17,7 @@ This repository contains write-ups and solutions for CTF challenges I've solved.
 
 | Challenge | Write-up |
 |---------|----------|
-| **2.1 ADSL Modem ** | [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Forensics/ADSL_Modem.md) |
+| **2.1 ADSL Modem** | [View detailed write-up](https://github.com/salma-ashraf10/CTF_writeups/blob/main/CyberTalents/Forensics/ADSL_Modem.md) |
 
 ---
 
