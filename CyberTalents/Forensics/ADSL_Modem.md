@@ -22,33 +22,33 @@
 
 ### 2. use file command for knowing the type of this file
 
-    ```
+    
     root㉿kali)-[/home/kali/Downloads]
     └─# file TL-MR3220+V2+_FW.bin
     TL-MR3220+V2+_FW.bin: RAR archive data, v4, os: Win32
-    ```
+    
 
   
 ### 3. the result is rar file , so let's uncompromise it.
 
 ### 4. use unrar command 
+         (root㉿kali)-[/home/kali/Downloads]
+          └─# unrar x  TL-MR3220+V2+_FW.bin
+          
+          UNRAR 7.13 freeware      Copyright (c) 1993-2025 Alexander Roshal
+          
+          Archive comment:
+          Flag{reversing_FW_is_interesting_but_this_is_for_fun}
+          
+          Extracting from TL-MR3220+V2+_FW.bin
 
 ### 5. the result is the flag:
----
-## Impact summary:
-   Credentials were exposed through easily reversible JavaScript obfuscation.
-    
----
-## Mitigations:
-   Never hardcode credentials in client-side JavaScript.
-
-   Avoid relying on JavaScript obfuscation for security.
-
+          Flag{reversing_FW_is_interesting_but_this_is_for_fun}
 ---
 ### The flag: 
-     {J4V4_Scr1Pt_1S_Aw3s0me}
+    Flag{reversing_FW_is_interesting_but_this_is_for_fun}
      
-[The challenge link](https://cybertalents.com/challenges/web/this-is-sparta)
+[The challenge link](https://cybertalents.com/challenges/forensics/adsl-modem)
 
 
 
