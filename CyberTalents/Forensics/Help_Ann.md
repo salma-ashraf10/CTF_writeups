@@ -48,7 +48,7 @@
     ┌──(root㉿kali)-[/home/kali/Downloads]
     └─# file help_ann_please    
     help_ann_please: PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
-    ```
+   ```
 
    This confirmed that the file was successfully restored as a valid PNG image.
 
