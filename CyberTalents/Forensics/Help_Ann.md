@@ -25,10 +25,11 @@
 
 ### 2. Check its type by file command.
 
-    ```bash
-         ──(root㉿kali)-[/home/kali/Downloads]
-        └─# file help_ann_please
-        help_ann_please: data
+  ```bash
+       ──(root㉿kali)-[/home/kali/Downloads]
+      └─# file help_ann_please
+      help_ann_please: data
+  ```
   
   
 ### 3. Open the file using hexedit to inspect its hex header.
@@ -43,10 +44,11 @@
 ### 6. Edit it from 00 to 89 and then save the edit.
     
 ### 7. Use file command again:
-       ```bash
-        ┌──(root㉿kali)-[/home/kali/Downloads]
-        └─# file help_ann_please    
-        help_ann_please: PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+   ```bash
+    ┌──(root㉿kali)-[/home/kali/Downloads]
+    └─# file help_ann_please    
+    help_ann_please: PNG image data, 300 x 300, 8-bit/color RGBA, non-interlaced
+    ```
 
    This confirmed that the file was successfully restored as a valid PNG image.
 
